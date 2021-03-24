@@ -1,14 +1,9 @@
-# KGitSearchAPI
+# GITHUB ISSUE TRACKER
 ## By Kerry Kogei 
 
 
 ## Description
-This a git hub search API where user is able to search github user name and repositories.
-
-## Live Page 
-
-https://github.com/Kerrykogei24/KGit-SearchApi
-## Development server
+This a git hub search API with Github issue Tracker  where user is able to search github user name, repositories and Issues
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
@@ -25,7 +20,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 ## Installation / Setup instruction
 * Open Terminal {Ctrl+Alt+T}
 
-* git clone ```https://kerrykogei24.github.io/KGit-SearchApi/```
+* git clone ```https://kerrykogei24.github.io/Github-Issue-Tracker/```
 
 * cd KGit-SearchApi
 

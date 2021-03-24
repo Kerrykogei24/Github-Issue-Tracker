@@ -2,7 +2,7 @@
     <mat-vertical-stepper [linear]="true" style="margin-left: 35%">
         <mat-step [stepControl]="firstFormGroup">
             <form [formGroup]="firstFormGroup" novalidate (ngSubmit)="getOrgName()">
-                <ng-template matStepLabel>Fill out Organization name</ng-template>
+                <ng-template matStepLabel>Github Username</ng-template>
                 <mat-form-field>
                     <input matInput placeholder="Organization name" formControlName="orgName" required>
                 </mat-form-field>

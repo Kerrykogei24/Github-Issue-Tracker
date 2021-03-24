@@ -37,7 +37,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 ## Contact Information 
 
 If you have any question or contributions, please email me at [kerrykomar@gmail.com]
-[+(254)723424164]
+* [Mobile] |+(254)723424164
 
 ## License
 * *MIT License:*

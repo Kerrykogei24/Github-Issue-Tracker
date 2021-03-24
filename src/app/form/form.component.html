@@ -4,7 +4,7 @@
             <form [formGroup]="firstFormGroup" novalidate (ngSubmit)="getOrgName()">
                 <ng-template matStepLabel>Github Username</ng-template>
                 <mat-form-field>
-                    <input matInput placeholder="Organization name" formControlName="orgName" required>
+                    <input matInput placeholder="Github username" formControlName="orgName" required>
                 </mat-form-field>
                 <div>
                     <button mat-button matStepperNext>Next</button>

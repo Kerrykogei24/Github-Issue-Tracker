@@ -20,7 +20,7 @@ const routes: Routes = [
         component: FormComponent
     },
     {
-        path : 'data',
+        path : 'form',
         component: TableComponent
     }
 ];

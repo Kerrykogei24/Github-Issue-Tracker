@@ -67,7 +67,7 @@ export class IssuesService {
                 // assign reports from response to local variable in context
                 if(this.data.length == 0) {
                     this.data = res;
-                    this.router.navigateByUrl('/data');
+                    this.router.navigateByUrl('/table');
                 } else if (this.data.length > 0){
                     this.data = this.data.concat(res);
                 }
@@ -79,8 +79,8 @@ export class IssuesService {
             },
             (err: number) => {
                 this.data = [];
-                this.dataNotFound = "Data not found please check organization or repository name";
-                this.router.navigateByUrl('/data');
+                this.dataNotFound = "Data not found please check github username or repository name";
+                this.router.navigateByUrl('/table');
                 // notify other components
                 this.subjectIsDataLoading.next(false);
                 // send failure via broadcast to notify other components

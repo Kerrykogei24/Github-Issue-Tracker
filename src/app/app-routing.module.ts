@@ -3,7 +3,7 @@ import { FormComponent } from './form/form.component';
 import { TableComponent } from './table/table.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { UserDataComponent } from './user-data/user-data.component';
-import { NgModule } from '@angular/core';
+import { NgModule, Component } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { RepoComponent } from './repo/repo.component';
 
